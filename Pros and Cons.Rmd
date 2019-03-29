@@ -1,0 +1,51 @@
+---
+title: "Pros and Cons"
+author: "Nicholas Dow"
+date: "March 28, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##Richard Qiu: Vaccine Explorer
+### What does it do: 
+
+* Shiny app that looks at vaccination rates before and after medicaid expansion.
+
+### Pros
+
+* Wide range of data sets from reliable sources CDC, US Census Bureau
+* Shiny app with animation from plot_ly to show change over time
+* Ability to select which diseases to select for
+* Option to select both poverty rate and insurance rate
+* Gives Regression statistics
+* Addresses counter arguments and explains sources
+* Hovering gives you more data
+
+### Cons
+
+* Gives so many options it is hard to select the one that make his point
+* Can crash program with the right selection of options. Average across years -> Animate Factors
+* Vaccination is a limited scope through which to judge success of obamacare, anti-vax movement has mangled data
+* Data hidden behind option that is very small part of screen
+
+## Gabriel Walker: Chinese Elite Diplomacy and Overseas Financial Flows
+### Pros
+* Explained methodology for collecting data very clearly
+* Really well designed pop up that introduces tool.
+* Custom CSS
+* Thorough use of Industry Options
+* Could click on point to select
+* Could Hover to read extensive information about the investment.
+* So many different methods of analyzing the data on page 
+* Tables with aid and investment information was useful, search bar was a nice touch
+
+### Cons
+* Points don't collect when zooming out on map
+* Felt like it needed a thesis
+* Put df at the end of file names, made it hard to understand the purpose of the rds files: aiddf.rds could be aid_df.rds
+* Opacity alternation of tool in map feels off
+* Could have use better use of color in map, it was hard to differentiate projects on the map
+* Investment Graphics don't work well on half screen
